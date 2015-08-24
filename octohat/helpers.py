@@ -88,8 +88,10 @@ def get_users(uri):
 def repo_exists(repo_name):
     try:
         repo = conn.send("GET", "/repos/%s" % repo_name)
+        print(repo)
         return True 
     except ResponseError as e:
+        print(e)
         return False
 
 def progress(message):
