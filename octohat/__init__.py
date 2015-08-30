@@ -10,11 +10,12 @@ def main():
   parser.add_argument("repo_name", help="githubuser/repo")
   parser.add_argument("-g", "--generate-html", action='store_true', help="Generate output as HTML")
   parser.add_argument("-l", "--limit", help="Limit to the last x Issues/Pull Requests", type=int, default=0)
+  parser.add_argument("-d", "--debug", action="store_true", help="Enable debugging")
   args = parser.parse_args()  
 
   repo_name = args.repo_name
 
-  if not repo_exists(repo_name): 
+  if not repo_exists(repo_name, True): 
     print("Repo does not exist: %s" % repo_name)
     sys.exit(1)
 
