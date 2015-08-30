@@ -91,7 +91,7 @@ def repo_exists(repo_name, debug=False):
         return True 
     except ResponseError as e:
         if debug: 
-          print e
+          print(e)
         return False
 
 def progress(message):
