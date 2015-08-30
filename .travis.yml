@@ -9,4 +9,3 @@ script:
   - "octohat avinassh/rockstar"
   - "octohat hakimel/reveal.js"
   - "octohat kennethreitz/requests"
-
