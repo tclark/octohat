@@ -4,8 +4,4 @@ python:
 install:
   - "pip install ."
 script: 
-  - "octohat glasnt/octohat"
-  - "octohat anchor/vaultaire"
-  - "octohat avinassh/rockstar"
-  - "octohat hakimel/reveal.js"
-  - "octohat kennethreitz/requests"
+  - "octohat KSP-CKAN/CKAN"
