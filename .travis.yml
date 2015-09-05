@@ -6,4 +6,4 @@ install:
   - "pip install ."
 script: 
   - "octohat glasnt/octohat"
-  - "octohat glasnt/nudgebucket"
+  - "octohat glasnt/nudgebucket" 
