@@ -1,6 +1,10 @@
 # ignore locally generated html files
 *.html
 
+# precompiled stuff
+__pycache__/
+*.py[cod]
+
 # Distribution / packaging
 bin/
 build/
